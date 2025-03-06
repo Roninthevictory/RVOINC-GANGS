@@ -64,7 +64,7 @@ All rights reserved.
 By using this plugin, you agree to the following terms:
 
 1. **Permitted Use**: 
-   - You are permitted to use the plugin on your personal Minecraft server.
+   - You are permitted to use the plugin on your personal and Public Minecraft server.
    - The plugin is intended for personal, non-commercial use only.
 
 2. **Restrictions**:
