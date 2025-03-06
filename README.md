@@ -7,54 +7,70 @@ Gangz X is a powerful, customizable Minecraft plugin that allows players to crea
 Gangz X enables gang wars, territory management, and more, providing a comprehensive solution for server owners who want to integrate competitive and cooperative gang dynamics into their gameplay.
 
 ## Features
-Gang Creation: Players can create a gang, and only one gang can be created per player.
-Gang Roles: Gang members can have various roles like leader, officer, or member.
-Gang Invites: Only gang owners can invite players to join their gang.
-Gang War & Territories (Future): Features to be added for more competitive gameplay.
-Gang Funds/Properties (Future): Manage funds and properties for each gang.
-Installation
-Download Gangz X Plugin JAR:
+Gang Creation: Players can create a gang, and only one gang can be created per player.  
+
+Gang Roles: Gang members can have various roles like leader, officer, or member.  
+
+Gang Invites: Only gang owners can invite players to join their gang.  
+
+Gang War & Territories (Future): Features to be added for more competitive gameplay.  
+
+Gang Funds/Properties (Future): Manage funds and properties for each gang.  
+
+### Installation
+Download Gangz X Plugin JAR:  
+
 Download the latest version of the Gangz X plugin JAR file from your distribution platform (e.g., GitHub, your server, or the provided download link).
-Install on Server:
-Place the GangzX.jar file in your server’s plugins folder.
+Install on Server:  
+
+Place the GangzX.jar file in your server’s plugins folder.  
+
 Restart your Minecraft server to load the plugin.
-Configuration
+
+### Configuration
 Once the plugin is installed, you may want to configure it to suit your needs. The plugin will generate a config.yml file in the plugins/GangzX/ directory.
 
 You can adjust various settings in this file, such as:
 
-Gang Names: Restrictions on gang names (length, special characters, etc.).
-Invite Timeout: Time before an invite expires.
-Max Gangs per Player: Limit the number of gangs a player can join.
-Territory Settings (Future): Configure territory management options.
+**Gang Names**: Restrictions on gang names (length, special characters, etc.).
+**Invite Timeout**: Time before an invite expires.
+**Max Gangs per Player**: Limit the number of gangs a player can join.
+**Territory Settings** (Future Update): Configure territory management options.
 Note: If you wish to customize the configuration, simply edit the config.yml file after starting the server for the first time.
 
 ## Commands
-/gang create <name>
-Usage: /gang create <name>
-Description: Creates a new gang with the specified name. The player becomes the owner of the gang.
-Permissions Required: None
-Example: /gang create AwesomeGang
-/gang invite <player>
-Usage: /gang invite <player>
-Description: Sends an invitation to a player to join the gang. Only the gang owner can use this command.
-Permissions Required: gangsplugin.owner
-Example: /gang invite PlayerOne
-/gang accept <gangname>
-Usage: /gang accept <gangname>
-Description: Accept an invite to join a gang. The player must have a pending invite to the specified gang.
-Permissions Required: None
-Example: /gang accept AwesomeGang
-/gang deny <gangname>
-Usage: /gang deny <gangname>
-Description: Deny a pending invite to a gang.
-Permissions Required: None
-Example: /gang deny AwesomeGang
+> /gang create <name>  
+Usage: /gang create <name>  
+Description: Creates a new gang with the specified name. The player becomes the owner of the gang.  
+Permissions Required: None  
+Example: /gang create AwesomeGang  
+
+> /gang invite <player>  
+Usage: /gang invite <player>  
+Description: Sends an invitation to a player to join the gang. Only the gang owner can use this command.  
+Permissions Required: gangsplugin.owner  
+Example: /gang invite PlayerOne  
+
+> /gang accept <gangname>  
+Usage: /gang accept <gangname>  
+Description: Accept an invite to join a gang. The player must have a pending invite to the specified gang.  
+Permissions Required: None  
+Example: /gang accept AwesomeGang  
+
+> /gang deny <gangname>  
+Usage: /gang deny <gangname>  
+Description: Deny a pending invite to a gang.  
+Permissions Required: None  
+Example: /gang deny AwesomeGang  
+
 
 ### Permissions
-gangsplugin.use: Allows players to use gang-related commands like create, invite, accept, and deny.
-gangsplugin.owner: Allows the gang owner to invite players to the gang.
-gangsplugin.member: Allows players to be added as members of the gang after an invite is accepted.
+gangsplugin.use: Allows players to use gang-related commands like create, invite, accept, and deny.  
+
+gangsplugin.owner: Allows the gang owner to invite players to the gang.  
+
+gangsplugin.member: Allows players to be added as members of the gang after an invite is accepted.  
+
 
 
 ## License
