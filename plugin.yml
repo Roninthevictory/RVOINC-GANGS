@@ -1,0 +1,12 @@
+name: Gangz X
+version: 1.0
+main: com.roninvictoryorigionals.gangsplugin.GangsPlugin
+commands:
+  gang:
+    description: Manage gangs and invites.
+    usage: /<command> <create|invite|accept|deny> [args]
+    permission: gangsplugin.use
+permissions:
+  gangsplugin.use:
+    description: Allows players to use the gang commands.
+    default: true
