@@ -1,4 +1,4 @@
-Gangz X Plugin
+# Gangz X Plugin
 Author: Ronin Victory
 
 Overview
