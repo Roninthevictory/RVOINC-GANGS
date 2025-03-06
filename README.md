@@ -13,9 +13,9 @@ Gang Roles: Gang members can have various roles like leader, officer, or member.
 
 Gang Invites: Only gang owners can invite players to join their gang.  
 
-Gang War & Territories (Future): Features to be added for more competitive gameplay.  
+> Gang War & Territories (Future): Features to be added for more competitive gameplay.  
 
-Gang Funds/Properties (Future): Manage funds and properties for each gang.  
+> Gang Funds/Properties (Future): Manage funds and properties for each gang.  
 
 ### Installation
 Download Gangz X Plugin JAR:  
