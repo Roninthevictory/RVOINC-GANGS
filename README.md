@@ -1,12 +1,12 @@
 # Gangz X Plugin
 Author: Ronin Victory
 
-Overview
+## Overview
 Gangz X is a powerful, customizable Minecraft plugin that allows players to create and manage their own gangs within the server. The plugin supports gang creation, inviting players, accepting/denying invites, and managing gang members with roles like owner, officer, and member.
 
 Gangz X enables gang wars, territory management, and more, providing a comprehensive solution for server owners who want to integrate competitive and cooperative gang dynamics into their gameplay.
 
-Features
+## Features
 Gang Creation: Players can create a gang, and only one gang can be created per player.
 Gang Roles: Gang members can have various roles like leader, officer, or member.
 Gang Invites: Only gang owners can invite players to join their gang.
@@ -29,7 +29,7 @@ Max Gangs per Player: Limit the number of gangs a player can join.
 Territory Settings (Future): Configure territory management options.
 Note: If you wish to customize the configuration, simply edit the config.yml file after starting the server for the first time.
 
-Commands
+## Commands
 /gang create <name>
 Usage: /gang create <name>
 Description: Creates a new gang with the specified name. The player becomes the owner of the gang.
@@ -56,7 +56,7 @@ gangsplugin.owner: Allows the gang owner to invite players to the gang.
 gangsplugin.member: Allows players to be added as members of the gang after an invite is accepted.
 
 
-
+## License
 Copyright (c) 2025 RVO inc.
 
 All rights reserved.
