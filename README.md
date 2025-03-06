@@ -50,7 +50,8 @@ Usage: /gang deny <gangname>
 Description: Deny a pending invite to a gang.
 Permissions Required: None
 Example: /gang deny AwesomeGang
-Permissions
+
+### Permissions
 gangsplugin.use: Allows players to use gang-related commands like create, invite, accept, and deny.
 gangsplugin.owner: Allows the gang owner to invite players to the gang.
 gangsplugin.member: Allows players to be added as members of the gang after an invite is accepted.
